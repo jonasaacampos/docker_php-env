@@ -11,8 +11,8 @@ composer.phar
 .phpunit.cache
 
 # PHPUnit
-/app/phpunit.xml
-/phpunit.xml
+#/app/phpunit.xml
+#/phpunit.xml
 
 # Build data
 /build/

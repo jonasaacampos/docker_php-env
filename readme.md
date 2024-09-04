@@ -3,10 +3,15 @@
 Ambiente de desenvolvimento PHP com o framework de testes PHPUnit em ambiente Docker, que pode ser portado para qualquer máquina de desenvolvimento ou produção.
 
 - [How to use](#how-to-use)
+- [Clone este repositório](#clone-este-repositório)
   - [1. Habilitar WSL2](#1-habilitar-wsl2)
   - [2. Instalar php no WSL2](#2-instalar-php-no-wsl2)
   - [3. Executar ambiente](#3-executar-ambiente)
   - [4. Executar testes](#4-executar-testes)
+
+## Clone este repositório
+
+`git clone https://github.com/jonasaacampos/docker_php-env.git`
 
 
 ### 1. Habilitar WSL2
@@ -45,6 +50,7 @@ docker-compose up -d
 
 # recriar os contâineres se necessário
 sudo docker-compose build
+
 ```
 
 ### 4. Executar testes
